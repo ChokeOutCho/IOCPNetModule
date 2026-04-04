@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NetLib">
+      <UniqueIdentifier>{08f9a9ff-7e3d-46cf-b169-864e22dc6d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{0ed12e6b-4162-4f9e-a09c-2642b555409b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetLib\NetLib_Client.cpp">
+      <Filter>NetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="NetLib\NetLib_Content.cpp">
+      <Filter>NetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="NetLib\NetLib_Server.cpp">
+      <Filter>NetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="NetLib\Packet.cpp">
+      <Filter>NetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Profiler.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\RingBuffer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetLib\NetLib_Client.h">
+      <Filter>NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLib\NetLib_Content.h">
+      <Filter>NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLib\NetLib_Helper.h">
+      <Filter>NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLib\NetLib_Server.h">
+      <Filter>NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLib\NetLibDefine.h">
+      <Filter>NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLib\NetLibraryProtocol.h">
+      <Filter>NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLib\Packet.h">
+      <Filter>NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLib\Session.h">
+      <Filter>NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CrashDump.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\LockFreePool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\LockFreeQueue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\LockFreeStack.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Logger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ObjectPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Parser.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Profiler.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\RingBuffer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SimpleEncoder.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SystemMonitor.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\TLSObjectPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="server_config.cfg" />
+  </ItemGroup>
+</Project>
